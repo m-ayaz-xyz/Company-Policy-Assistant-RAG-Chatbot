@@ -1,10 +1,10 @@
-# 📄 Company Policy Assistant - RAG (Retrieval-Augmented Generation) Chatbot
+# Company Policy Assistant - RAG (Retrieval-Augmented Generation) Chatbot
 
 A Retrieval-Augmented Generation (RAG) application that allows users to upload a company policy PDF and ask questions in natural language. The chatbot retrieves the most relevant information from the uploaded document using semantic search and generates accurate responses using the Mistral Large Language Model (LLM).
 
 ---
 
-## 🚀 Problem Statement
+## Problem Statement
 
 Employees often spend a significant amount of time searching through lengthy company policy documents to find information about:
 
@@ -20,7 +20,7 @@ Instead of manually searching through hundreds of pages, this application enable
 
 ---
 
-## 💡 Solution
+## Solution
 
 This project uses the **Retrieval-Augmented Generation (RAG)** architecture.
 
@@ -38,7 +38,7 @@ This significantly reduces hallucinations compared to a normal chatbot.
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 ```
                 Upload PDF
@@ -70,7 +70,7 @@ This significantly reduces hallucinations compared to a normal chatbot.
 
 ---
 
-# ✨ Features
+# Features
 
 - Upload Company Policy PDF
 - Semantic Search using ChromaDB
@@ -86,7 +86,7 @@ This significantly reduces hallucinations compared to a normal chatbot.
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 - Python
 - LangChain
@@ -99,7 +99,7 @@ This significantly reduces hallucinations compared to a normal chatbot.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 Company-Policy-RAG/
@@ -117,7 +117,7 @@ Company-Policy-RAG/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 Clone the repository
 
@@ -159,7 +159,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Environment Variables
+# Environment Variables
 
 Create a `.env` file
 
@@ -169,7 +169,7 @@ MISTRAL_API_KEY=YOUR_API_KEY
 
 ---
 
-# ▶️ Run the Project
+# Run the Project
 
 ```bash
 streamlit run app.py
@@ -177,7 +177,7 @@ streamlit run app.py
 
 ---
 
-# 💬 Example Questions
+# Example Questions
 
 - How many paid leaves are available?
 - What is the notice period?
@@ -188,7 +188,7 @@ streamlit run app.py
 
 ---
 
-# 📖 RAG Workflow
+# RAG Workflow
 
 ```
 User Question
@@ -211,7 +211,7 @@ Final Answer
 
 ---
 
-# 📦 Dependencies
+# Dependencies
 
 - langchain
 - langchain-core
@@ -227,7 +227,7 @@ Final Answer
 
 ---
 
-# 📚 Learning Outcomes
+# Learning Outcomes
 
 This project demonstrates:
 
